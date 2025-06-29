@@ -7,7 +7,7 @@ dotenv.config();
 
 const port = process.env.PORT || 5000;
 
-// Connect to DB and start server
+// Connect to Database and start server
 const startServer = async () => {
   try {
     await connectDB();
